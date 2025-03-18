@@ -1,0 +1,18 @@
+.fullscreen-bg__video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+h1 {
+  z-index: 2;
+}
+
+::cue {
+  color: yellow;
+  position: absolute;
+  top: 1px;
+}
